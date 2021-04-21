@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    margin: 0;
+    margin: 0 auto;
     outline: none;
 }
 
@@ -14,10 +14,10 @@
 }
 
 .firstSectionOfHeaderContainer {
-    width: 370px;
+    width: 396px;
     display: flex;
     justify-content: space-between;
-    padding: 13px 0 12px 0;
+    margin: 13px 0 12px 0;
 }
 
 .textFirstSectionOfHeaderContainer {
@@ -33,7 +33,7 @@
     font-size: 12px;
     cursor: pointer;
     line-height: 28px;
-    padding: 1px 13px;
+    padding: 0px 13px;
     transition: 0.2s linear;
 }
 
@@ -42,12 +42,15 @@
     color: #CED3CA;
 }
 
+.mainSecondSectionOfHeader {
+    padding: 33px 50px 42px 75px;
+}
+
 .secondSectionOfHeader {
     width: 1250px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 33px 50px 42px 75px;
 }
 
 .logoUgmonk {
@@ -100,9 +103,9 @@
 
 .firstDepartment {
     width: 1440px;
-    height: 600px;
-    background: url(/img/backgroundFirstDepartment.svg);
+    /* background: url(/img/backgroundFirstDepartment.svg); */
     position: relative;
+    padding: 517px 952px 70px 140px;
 }
 
 .textFirstDepartment {
@@ -142,7 +145,7 @@
 
 .navSecondDepartment {
     width: 745px;
-    padding: 40px 0 55px 0;
+    margin: 40px 0 55px 0;
 }
 
 .subNavSecondDepartment {
