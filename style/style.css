@@ -7,6 +7,10 @@
     padding: 0;
 }
 
+li {
+    margin: 0;
+}
+
 .firstSectionOfHeader {
     width: 1440px;
     display: flex;
@@ -25,6 +29,7 @@
 .textFirstSectionOfHeaderContainer {
     font-weight: normal;
     font-size: 14px;
+    margin: 0;
 }
 
 .textWidthBackground {
@@ -37,6 +42,7 @@
     line-height: 28px;
     padding: 0px 13px;
     transition: 0.2s linear;
+    margin: 0;
 }
 
 .textWidthBackground:hover {
@@ -60,11 +66,14 @@
 .logoUgmonk {
     width: 264px;
     height: 40px;
+    margin: 0;
 }
 
 .firstSubSectionHeader {
+    width: 630px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin: 0;
 }
 
@@ -77,6 +86,7 @@
     list-style: none;
     display: flex;
     justify-content: space-between;
+    margin: 0;
 }
 
 .linksItem {
@@ -392,11 +402,8 @@
 
 .sixthDepartment {
     width: 1440px;
-    height: 600px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background: url(/img/BackroundSixthDepartment.svg);
+    padding: 237px 329px 220px 329px;
 }
 
 .elementSixthDepartment {
@@ -411,6 +418,7 @@
     font-size: 35px;
     line-height: 54px;
     color: #FFFFFF;
+    text-align: center;
 }
 
 .linkSixthDepartment {
@@ -422,11 +430,11 @@
     text-decoration: none;
     border-bottom: 1px solid #FFFFFF;
     padding-bottom: 5px;
+    margin: 10px 0 0 0;
 }
 
 .seventhDepartment {
     width: 1440px;
-    height: 443px;
     padding: 82px 520px 129px 515px;
     background: #CED3CA;
 }
@@ -445,11 +453,12 @@
 }
 
 .textSeventhDepartment {
+    width: 370px;
     font-weight: normal;
     font-size: 16px;
     line-height: 22px;
     text-align: center;
-    margin-bottom: 56px;
+    margin: 0 0 56px 0;
 }
 
 .formSeventhDepartment {
@@ -477,7 +486,8 @@ input[type="email"] {
     width: 66px;
     height: 48px;
     border: 1px solid black;
-    background: #FFFFFF
+    background: #FFFFFF;
+    cursor: pointer;
 }
 
 footer {
@@ -504,6 +514,14 @@ footer {
     width: 143px;
     display: flex;
     flex-direction: column;
+    margin: 0;
+}
+
+.secondSubElemfirstSectionFooter {
+    width: 143px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
 }
 
 .elemSubsectionEighthDepartment {
