@@ -427,9 +427,7 @@
 .seventhDepartment {
     width: 1440px;
     height: 443px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 82px 520px 129px 515px;
     background: #CED3CA;
 }
 
@@ -443,7 +441,7 @@
 .titleSeventhDepartment {
     font-weight: normal;
     font-size: 34px;
-    padding-bottom: 19px;
+    margin: 0 0 19px 0;
 }
 
 .textSeventhDepartment {
@@ -451,11 +449,12 @@
     font-size: 16px;
     line-height: 22px;
     text-align: center;
-    padding-bottom: 56px;
+    margin-bottom: 56px;
 }
 
 .formSeventhDepartment {
     display: flex;
+    margin: 0;
 }
 
 .emailSeventhDepartment {
