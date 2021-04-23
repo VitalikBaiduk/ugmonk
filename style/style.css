@@ -3,6 +3,8 @@
     font-family: 'Roboto', sans-serif;
     margin: 0 auto;
     outline: none;
+    list-style: none;
+    padding: 0;
 }
 
 .firstSectionOfHeader {
@@ -43,6 +45,7 @@
 }
 
 .mainSecondSectionOfHeader {
+    width: 1440px;
     padding: 33px 50px 42px 75px;
 }
 
@@ -51,6 +54,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0;
 }
 
 .logoUgmonk {
@@ -61,6 +65,7 @@
 .firstSubSectionHeader {
     display: flex;
     align-items: center;
+    margin: 0;
 }
 
 .headerLinks {
@@ -99,6 +104,7 @@
     width: 400px;
     display: flex;
     align-items: center;
+    margin: 0;
 }
 
 .firstDepartment {
@@ -183,7 +189,7 @@
     width: 1160px;
     display: flex;
     justify-content: space-between;
-    padding-top: 31px;
+    margin-top: 31px;
 }
 
 .firstTextOfElementLine {
@@ -231,11 +237,12 @@
 }
 
 .thirdDepartment {
-    height: 660px;
+    width: 1440px;
     display: flex;
     justify-content: center;
     align-items: center;
     background: #CED3CA;
+    padding: 127px 140px;
 }
 
 .sectionWidtnWhiteBackground {
@@ -264,7 +271,12 @@
     font-weight: normal;
     font-size: 14px;
     border-bottom: 1px solid black;
-    padding: 33px 0 3px 0;
+    padding-bottom: 5px;
+    margin: 33px 0 0 0;
+}
+
+.secondSubSectionWidtnWhiteBackground {
+    margin: 0;
 }
 
 .fourthDepartment {
@@ -295,9 +307,16 @@
     margin-top: 92px;
 }
 
-.firstImgSubSection {
+.subSectionFourthDepartment {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.imgSubSectionFourthDepartment {
     width: 522px;
     height: 647px;
+    margin-bottom: 7px;
 }
 
 .textSubSection {
@@ -306,6 +325,7 @@
     font-size: 16px;
     border-bottom: 1px solid black;
     padding-bottom: 5px;
+    margin: 0;
 }
 
 .textSubSection2 {
@@ -314,6 +334,7 @@
     font-size: 16px;
     border-bottom: 1px solid black;
     padding-bottom: 5px;
+    margin: 0;
 }
 
 .textSubSection3 {
@@ -322,6 +343,7 @@
     font-size: 16px;
     border-bottom: 1px solid black;
     padding-bottom: 5px;
+    margin: 0;
 }
 
 .secondSectionFourthDepartment {
@@ -329,17 +351,19 @@
 }
 
 .fifthDepartment {
-    height: 660px;
+    width: 1440px;
     display: flex;
     justify-content: center;
     align-items: center;
     background: #CED3CA;
+    padding: 127px 140px;
 }
 
 .titlefifthDepartment {
     font-weight: normal;
     font-size: 38px;
     line-height: 46px;
+    margin: 0;
 }
 
 .textfifthDepartment {
@@ -347,7 +371,8 @@
     font-weight: normal;
     font-size: 14px;
     border-bottom: 1px solid black;
-    padding: 33px 0 3px 0;
+    padding-bottom: 5px;
+    margin: 33px 0 0 0;
 }
 
 .textfifthDepartment1 {
@@ -457,28 +482,29 @@ input[type="email"] {
 }
 
 footer {
+    width: 1440px;
     display: flex;
     justify-content: center;
+    padding: 84px 141px 104px 140px;
 }
 
-.eighthDepartment {
+.mainSectionHeader {
     width: 1160px;
     display: flex;
     justify-content: space-between;
-    padding: 84px 0 104px 0;
 }
 
-.firstSectionEighthDepartment {
+.firstSectionFooter {
     width: 403px;
     display: flex;
     justify-content: space-between;
+    margin: 0;
 }
 
-.subsectionEighthDepartment {
-    height: 170px;
+.firstSubElemfirstSectionFooter {
+    width: 143px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .elemSubsectionEighthDepartment {
@@ -491,6 +517,7 @@ footer {
     background-repeat: no-repeat;
     background-size: 0% 2px;
     transition: background-size .2s;
+    list-style: none;
     padding-bottom: 5px;
 }
 
@@ -498,32 +525,49 @@ footer {
     background-size: 100% 2px;
 }
 
-.firstSubSecondSectionEighthDepartment {
-    width: 310px;
-    display: flex;
+.elemLiInNavHeader {
+    margin-top: 14px;
 }
 
-.textFirstSubSecondSectionEighthDepartment {
+.secondSectionFooter {
+    width: 315px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0;
+}
+
+.firstSubSectionSecondSectionFooter {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.textSubSectionFooter {
+    width: 233px;
     text-align: right;
+    margin: 0 20px 0 0;
+}
+
+.textFooter {
     font-weight: normal;
     font-size: 15px;
     line-height: 21px;
 }
 
 .footerLogo {
-    padding-left: 20px;
+    margin: 0;
 }
 
-.secondSubSecondSectionEighthDepartment {
-    width: 120px;
+.socialNetworks {
+    width: 135px;
     display: flex;
     justify-content: space-between;
+    margin: 0;
 }
 
-.secondSectionEighthDepartment {
-    height: 155px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-end;
+.socialNetworksItems {
+    margin: 0;
 }
